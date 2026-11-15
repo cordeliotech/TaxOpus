@@ -1,0 +1,96 @@
+# How CDOR location codes (Colorado_Jurisdiction_Codes_Rates_*.xlsx) map to geography, where the workbook name alone doesn't say.
+# Codes not listed here: an unincorporated code (xx0206, xx0208, xx0209, xx0210) covers the county outside municipalities;
+# any other code covers the DOLA municipality whose name matches the workbook name (parentheses and "MAIL VIA" notes dropped).
+# Municipality: the DOLA municipality name when it differs from the workbook name; "-" for unincorporated communities and districts.
+# Districts: DOLA local government IDs (lgid) the point must lie in, separated by ";"; PPRTA = Pikes Peak Rural Transportation Authority.
+# NoGeometry: yes when no public boundary exists for what sets the code apart (PIFs, LIDs, zones); such a code is used only when nothing else fits.
+# RTD (Regional Transportation District) is tested automatically wherever codes for the same place differ only by RTD.
+Code,Municipality,Districts,NoGeometry,Note
+020069,-,51015,,Pueblo West Metropolitan District
+020208,,51014,,Pueblo Rural FPD
+030085,LaSalle,,,
+030111,-,,yes,Prospect Valley (community; same rate as unincorporated Weld)
+030154,Firestone,,yes,Firestone 1st PIF
+030155,Firestone,,yes,Firestone 2nd PIF
+030159,Lochbuie,,,Lochbuie inside RTD
+030208,,62015,,Frederick-Firestone FPD
+030210,,64021,,Berthoud FPD
+040001,Colorado Springs,,yes,Commercial Aeronautical Zone
+040098,,PPRTA,,
+040099,,PPRTA,,
+040100,Monument,,yes,Monument PIF
+040102,,PPRTA,,
+040103,,PPRTA,,
+040208,,21013,,Cimarron Hills FPD
+060025,-,,yes,Drake (community; same rate as unincorporated Larimer)
+060034,-,,yes,Glen Haven (community; same rate as unincorporated Larimer)
+060087,Johnstown,,yes,Johnstown PIF
+060210,,64021,,Berthoud FPD
+070050,-,,yes,Niwot LID
+070210,,64021,,Berthoud FPD
+080007,-,,yes,Clifton (community; same rate as unincorporated Mesa)
+080044,-,65811,,Mesa County Whitewater Public Improvement District
+080045,-,66238,,Mesa County Gateway Public Improvement District
+080208,,39005,,Clifton FPD
+110004,Arvada,,,
+110060,Lakewood,,yes,Lakewood local improvement district
+110145,Littleton,,yes,Southeast Jefferson LID
+110150,-,65099,,Aspen Park Metropolitan District
+110151,Lakeside,,yes,Lakeside PIF
+110155,-,30080,,Southwest Plaza Metropolitan District
+110156,-,30124,,Mount Vernon Country Club Metropolitan District
+110157,-,65404,,Conifer Metropolitan District
+110158,-,,yes,Unincorporated Jefferson within a LID
+120209,,01023,,South Adams County FPD
+140050,Williamsburg,,,
+160208,,28006,,La Veta FPD
+200024,-,34024,,Purgatory Metropolitan District
+200208,,34027,,Upper Pine River FPD
+240208,,64033,,Carbondale and Rural FPD
+280041,Steamboat Springs,,yes,Steamboat Springs local marketing district (same rate as the city)
+320208,,42025,,Cortez FPD
+400018,Crested Butte,,yes,Crested Butte without the Gunnison Valley RTA (no boundary published)
+400045,-,,yes,Ohio City (community outside the RTA; no boundary)
+400056,-,,yes,Somerset (community outside the RTA; no boundary)
+400209,,64033,,Carbondale and Rural FPD (Marble area)
+430007,-,,yes,Divide (community; same rate as unincorporated Teller in Ute Pass HSD)
+430011,-,,yes,Florissant (community; same rate as unincorporated Teller in Ute Pass HSD)
+430208,,65329,,Ute Pass Regional Health Service District
+440064,-,19053,,Bachelor Gulch Metropolitan District
+440065,-,19059,,Two Rivers Metropolitan District
+440066,-,19016,,Edwards Metropolitan District
+440067,-,19074,,Red Sky Ranch Metropolitan District
+440068,-,19015,,Eagle-Vail Metropolitan District
+440069,-,19001,,Arrowhead Metropolitan District
+440208,,68260,,Within the Roaring Fork Transportation Authority: the Confluence Early Childhood district covers the same part of Eagle
+440209,,19071,,Eagle River FPD
+470006,-,,yes,Franktown (community; same rates as unincorporated Douglas)
+470007,-,,yes,Franktown (community; same rates as unincorporated Douglas)
+470013,-,,yes,Louviers (community; same rate as unincorporated Douglas outside RTD)
+470017,-,,yes,Sedalia (community; same rate as unincorporated Douglas outside RTD)
+470028,-,,yes,Highlands Ranch (community; same rates as unincorporated Douglas)
+470029,-,,yes,Highlands Ranch (community; same rates as unincorporated Douglas)
+470042,-,,yes,Lincoln Station local improvement district
+470048,Littleton,,,Littleton in Douglas outside RTD
+470049,-,65329,,Ute Pass Regional Health Service District
+470050,Lone Tree,,yes,Lone Tree local improvement district
+480208,,34027,,Upper Pine River FPD
+500209,,,yes,Unincorporated San Miguel outside the regional transportation authority (no boundary published)
+540004,-,,yes,Bailey (community; same rate as unincorporated Park outside the health service districts)
+540005,-,,yes,Como (community; same rate as unincorporated Park in the South Park HSD)
+540017,-,,yes,Hartsel (community; same rate as unincorporated Park in the South Park HSD)
+540020,-,,yes,Jefferson (community; same rate as unincorporated Park in the South Park HSD)
+540021,-,,yes,Lake George (community; same rate as unincorporated Park in the Ute Pass HSD)
+540027,-,,yes,Florissant (community; same rate as unincorporated Park in the Ute Pass HSD)
+540206,,66830,,South Park Health Service District
+540209,,65329,,Ute Pass Regional Health Service District
+540210,,65329;66830,,In both the Ute Pass Regional and South Park health service districts
+570208,,49001,,Aspen FPD
+570209,,64033,,Carbondale and Rural FPD
+580208,,66727,,Dove Creek Ambulance District
+610023,-,,yes,Copper Mountain (community; same rate as unincorporated Summit)
+610025,-,59005,,Buffalo Mountain Metropolitan District
+620002,City of Creede,,,
+630208,,27006,,Lake City Area FPD
+640006,Broomfield,,yes,Arista local improvement district
+640007,Broomfield,,yes,Flatiron local improvement district

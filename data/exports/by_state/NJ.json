@@ -1,0 +1,20 @@
+[
+  {
+    "CountryCode": "US",
+    "StateCode": "NJ",
+    "PostalCode": "*",
+    "City": "New Jersey",
+    "County": "",
+    "StateRatePercent": 6.625,
+    "CountyRatePercent": 0,
+    "CityRatePercent": 0,
+    "SpecialDistrictRatePercent": 0,
+    "CombinedRatePercent": 6.625,
+    "CombinedRateDecimal": 0.06625,
+    "MinCombinedRatePercent": 6.625,
+    "MaxCombinedRatePercent": 6.625,
+    "AuthorityName": "New Jersey Division of Taxation",
+    "Source": "BaselineCurated",
+    "EffectiveDate": "2026-10-24"
+  }
+]

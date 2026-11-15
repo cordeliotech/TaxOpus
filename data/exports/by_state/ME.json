@@ -1,0 +1,20 @@
+[
+  {
+    "CountryCode": "US",
+    "StateCode": "ME",
+    "PostalCode": "*",
+    "City": "Maine",
+    "County": "",
+    "StateRatePercent": 5.50,
+    "CountyRatePercent": 0,
+    "CityRatePercent": 0,
+    "SpecialDistrictRatePercent": 0,
+    "CombinedRatePercent": 5.50,
+    "CombinedRateDecimal": 0.055,
+    "MinCombinedRatePercent": 5.50,
+    "MaxCombinedRatePercent": 5.50,
+    "AuthorityName": "Maine Revenue Services",
+    "Source": "BaselineCurated",
+    "EffectiveDate": "2026-10-24"
+  }
+]

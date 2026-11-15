@@ -1,0 +1,127 @@
+"zcta","state","place","stab","PlaceName","ZIPName","pop20","afact"
+"ZIP census tabulation area","State code","Place code","State abbr.","Place name","ZIP Code name","Total population (2020 Census)","zcta-to-place allocation factor"
+"15003","42","02288","PA","Ambridge borough, PA","Ambridge, PA",6972,0.5973 
+"15003","42","05216","PA","Bell Acres borough, PA","Ambridge, PA",147,0.0126 
+"15003","42","22264","PA","Economy borough, PA","Ambridge, PA",1133,0.0971 
+"15003","42","42392","PA","Leetsdale borough, PA","Ambridge, PA",70,0.006 
+"15003","42","99999","PA","[not in a place]","Ambridge, PA",3350,0.287 
+"15212","42","61000","PA","Pittsburgh city, PA","Pittsburgh, PA",24744,0.9159 
+"15212","42","99999","PA","[not in a place]","Pittsburgh, PA",2272,0.0841 
+"17101","42","32800","PA","Harrisburg city, PA","Harrisburg, PA",2901,1 
+"19103","42","60000","PA","Philadelphia city, PA","Philadelphia, PA",28717,1 
+"22030","51","09072","VA","Braddock CDP, VA","Fairfax, VA",6549,0.1084 
+"22030","51","26496","VA","Fairfax city, VA","Fairfax, VA",18822,0.3115 
+"22030","51","26592","VA","Fairfax Station CDP, VA","Fairfax, VA",1260,0.0209 
+"22030","51","26701","VA","Fair Lakes CDP, VA","Fairfax, VA",2903,0.048 
+"22030","51","26875","VA","Fair Oaks CDP, VA","Fairfax, VA",16002,0.2648 
+"22030","51","30618","VA","George Mason CDP, VA","Fairfax, VA",9816,0.1624 
+"22030","51","42680","VA","Kings Park West CDP, VA","Fairfax, VA",31,0.0005 
+"22030","51","58472","VA","Oakton CDP, VA","Fairfax, VA",3198,0.0529 
+"22030","51","80029","VA","Union Mill CDP, VA","Fairfax, VA",1207,0.02 
+"22030","51","99999","VA","[not in a place]","Fairfax, VA",643,0.0106 
+"23185","51","86160","VA","Williamsburg city, VA","Williamsburg, VA",15004,0.291 
+"23185","51","99999","VA","[not in a place]","Williamsburg, VA",36562,0.709 
+"24011","51","68000","VA","Roanoke city, VA","Roanoke, VA",908,1 
+"24541","51","21344","VA","Danville city, VA","Danville, VA",23045,0.8371 
+"24541","51","99999","VA","[not in a place]","Danville, VA",4484,0.1629 
+"29401","45","13330","SC","Charleston city, SC","Charleston, SC",9145,1 
+"29577","45","49075","SC","Myrtle Beach city, SC","Myrtle Beach, SC",28011,0.8212 
+"29577","45","67390","SC","Socastee CDP, SC","Myrtle Beach, SC",574,0.0168 
+"29577","45","99999","SC","[not in a place]","Myrtle Beach, SC",5524,0.162 
+"29601","45","14455","SC","City View CDP, SC","Greenville, SC",95,0.0072 
+"29601","45","21310","SC","Dunean CDP, SC","Greenville, SC",18,0.0014 
+"29601","45","30850","SC","Greenville city, SC","Greenville, SC",12704,0.958 
+"29601","45","37465","SC","Judson CDP, SC","Greenville, SC",286,0.0216 
+"29601","45","54535","SC","Parker CDP, SC","Greenville, SC",8,0.0006 
+"29601","45","63700","SC","Sans Souci CDP, SC","Greenville, SC",136,0.0103 
+"29601","45","99999","SC","[not in a place]","Greenville, SC",14,0.0011 
+"33130","12","45000","FL","Miami city, FL","Miami, FL",35609,1 
+"33602","12","71000","FL","Tampa city, FL","Tampa, FL",19936,1 
+"34102","12","47625","FL","Naples city, FL","Naples, FL",9964,0.9493 
+"34102","12","99999","FL","[not in a place]","Naples, FL",532,0.0507 
+"38801","28","74840","MS","Tupelo city, MS","Tupelo, MS",21556,0.7235 
+"38801","28","76560","MS","Verona city, MS","Tupelo, MS",2674,0.0897 
+"38801","28","99999","MS","[not in a place]","Tupelo, MS",5565,0.1868 
+"39201","28","36000","MS","Jackson city, MS","Jackson, MS",574,1 
+"39501","28","29700","MS","Gulfport city, MS","Gulfport, MS",21846,0.9667 
+"39501","28","99999","MS","[not in a place]","Gulfport, MS",753,0.0333 
+"96742","15","99999","HI","[not in a place]","Kalaupapa, HI (PO boxes)",82,1 
+"96813","15","71550","HI","Urban Honolulu CDP, HI","Honolulu, HI",27372,1 
+"99603","02","03110","AK","Anchor Point CDP, AK","Homer, AK",36,0.0033 
+"99603","02","18925","AK","Diamond Ridge CDP, AK","Homer, AK",1236,0.1148 
+"99603","02","26910","AK","Fox River CDP, AK","Homer, AK",644,0.0598 
+"99603","02","27090","AK","Fritz Creek CDP, AK","Homer, AK",2248,0.2088 
+"99603","02","31270","AK","Halibut Cove CDP, AK","Homer, AK",60,0.0056 
+"99603","02","33140","AK","Homer city, AK","Homer, AK",5522,0.5129 
+"99603","02","36540","AK","Kachemak city, AK","Homer, AK",576,0.0535 
+"99603","02","52210","AK","Nanwalek CDP, AK","Homer, AK",247,0.0229 
+"99603","02","63280","AK","Port Graham CDP, AK","Homer, AK",162,0.015 
+"99603","02","99999","AK","[not in a place]","Homer, AK",35,0.0033 
+"99615","02","00650","AK","Akhiok city, AK","Kodiak, AK",63,0.005 
+"99615","02","01560","AK","Aleneva CDP, AK","Kodiak, AK",5,0.0004 
+"99615","02","13860","AK","Chiniak CDP, AK","Kodiak, AK",61,0.0049 
+"99615","02","40950","AK","Kodiak city, AK","Kodiak, AK",5581,0.4467 
+"99615","02","41210","AK","Kodiak Station CDP, AK","Kodiak, AK",1673,0.1339 
+"99615","02","49200","AK","Mill Bay CDP, AK","Kodiak, AK",4216,0.3374 
+"99615","02","85680","AK","Womens Bay CDP, AK","Kodiak, AK",743,0.0595 
+"99615","02","99999","AK","[not in a place]","Kodiak, AK",153,0.0122 
+"99801","02","36400","AK","Juneau city and borough, AK","Juneau, AK",30088,1 
+"99901","02","38970","AK","Ketchikan city, AK","Ketchikan, AK",8192,0.5876 
+"99901","02","67570","AK","Saxman city, AK","Ketchikan, AK",384,0.0275 
+"99901","02","99999","AK","[not in a place]","Ketchikan, AK",5366,0.3849 
+"85004","04","55000","AZ","Phoenix city, AZ","Phoenix, AZ",8833,1 
+"85140","04","58150","AZ","Queen Creek town, AZ","San Tan Valley, AZ",8780,0.1935 
+"85140","04","64210","AZ","San Tan Valley CDP, AZ","San Tan Valley, AZ",36532,0.805 
+"85140","04","99999","AZ","[not in a place]","San Tan Valley, AZ",69,0.0015 
+"85701","04","77000","AZ","Tucson city, AZ","Tucson, AZ",5132,1 
+"86001","04","23620","AZ","Flagstaff city, AZ","Flagstaff, AZ",34715,0.9359 
+"86001","04","25045","AZ","Fort Valley CDP, AZ","Flagstaff, AZ",1682,0.0453 
+"86001","04","99999","AZ","[not in a place]","Flagstaff, AZ",696,0.0188 
+"87102","35","02000","NM","Albuquerque city, NM","Albuquerque, NM",20605,0.9998 
+"87102","35","74520","NM","South Valley CDP, NM","Albuquerque, NM",5,0.0002 
+"87124","35","02000","NM","Albuquerque city, NM","Rio Rancho, NM",14,0.0002 
+"87124","35","63460","NM","Rio Rancho city, NM","Rio Rancho, NM",58312,0.9754 
+"87124","35","63530","NM","Rio Rancho Estates CDP, NM","Rio Rancho, NM",1196,0.02 
+"87124","35","99999","NM","[not in a place]","Rio Rancho, NM",259,0.0043 
+"87501","35","33920","NM","Hyde Park CDP, NM","Santa Fe, NM",285,0.0189 
+"87501","35","70500","NM","Santa Fe city, NM","Santa Fe, NM",14736,0.9749 
+"87501","35","77040","NM","Tesuque CDP, NM","Santa Fe, NM",63,0.0042 
+"87501","35","99999","NM","[not in a place]","Santa Fe, NM",32,0.0021 
+"87544","35","42320","NM","Los Alamos CDP, NM","Los Alamos, NM",13179,0.9728 
+"87544","35","99999","NM","[not in a place]","Los Alamos, NM",369,0.0272 
+"10601","36","81677","NY","White Plains city, NY","White Plains, NY",11882,1 
+"10701","36","32710","NY","Hastings-on-Hudson village, NY","Yonkers, NY",59,0.0009 
+"10701","36","84000","NY","Yonkers city, NY","Yonkers, NY",68645,0.9991 
+"11201","36","51000","NY","New York city, NY","Brooklyn, NY",69703,1 
+"11788","36","08026","NY","Brentwood CDP, NY","Hauppauge, NY",23,0.0014 
+"11788","36","32732","NY","Hauppauge CDP, NY","Hauppauge, NY",16250,0.9986 
+"12866","36","65255","NY","Saratoga Springs city, NY","Saratoga Springs, NY",28402,0.7038 
+"12866","36","99999","NY","[not in a place]","Saratoga Springs, NY",11953,0.2962 
+"14202","36","11000","NY","Buffalo city, NY","Buffalo, NY",3850,1 
+"94102","06","67000","CA","San Francisco city, CA","San Francisco, CA",39432,1 
+"36854","01","78204","AL","Valley city, AL","Valley, AL",10529,0.6421 
+"36855","01","26200","AL","Five Points town, AL","Five Points, AL",114,0.0824 
+"36862","01","40672","AL","La Fayette city, AL","Lafayette, AL",2684,0.4623 
+"36862","01","59016","AL","Penton CDP, AL","Lafayette, AL",163,0.0281 
+"36862","01","99999","AL","[not in a place]","Lafayette, AL",2959,0.5096 
+"36863","01","28120","AL","Fredonia CDP, AL","Lanett, AL",91,0.0074 
+"36863","01","36592","AL","Huguley CDP, AL","Lanett, AL",2470,0.2019 
+"36863","01","41296","AL","Lanett city, AL","Lanett, AL",6970,0.5698 
+"36863","01","99999","AL","[not in a place]","Lanett, AL",2702,0.2209 
+"36879","01","80256","AL","Waverly town, AL","Waverly, AL",159,0.0615 
+"80817","08","27865","CO","Fountain city, CO","Fountain, CO",29624,0.9368 
+"80817","08","68847","CO","Security-Widefield CDP, CO","Fountain, CO",149,0.0047 
+"80817","08","99999","CO","[not in a place]","Fountain, CO",1848,0.0584 
+"81657","08","80040","CO","Vail town, CO","Vail, CO",4835,0.9454 
+"81657","08","99999","CO","[not in a place]","Vail, CO",279,0.0546 
+"83313","16","06220","ID","Bellevue city, ID","Bellevue, ID",2560,0.671 
+"83313","16","29440","ID","Gannett CDP, ID","Bellevue, ID",174,0.0456 
+"83313","16","99999","ID","[not in a place]","Bellevue, ID",1081,0.2834 
+"83340","16","43030","ID","Ketchum city, ID","Ketchum, ID",3555,0.6295 
+"83340","16","78850","ID","Sun Valley city, ID","Ketchum, ID",13,0.0023 
+"83340","16","99999","ID","[not in a place]","Ketchum, ID",2079,0.3682 
+"83353","16","78850","ID","Sun Valley city, ID","Sun Valley, ID (PO boxes)",1767,0.9961 
+"83353","16","99999","ID","[not in a place]","Sun Valley, ID (PO boxes)",7,0.0039 
+"83354","16","78850","ID","Sun Valley city, ID","Sun Valley, ID (PO boxes)",3,1 
+"83638","16","48790","ID","McCall city, ID","Mccall, ID",3686,0.5045 
+"83638","16","99999","ID","[not in a place]","Mccall, ID",3620,0.4955 

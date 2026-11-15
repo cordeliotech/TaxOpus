@@ -1,0 +1,20 @@
+[
+  {
+    "CountryCode": "US",
+    "StateCode": "LA",
+    "PostalCode": "*",
+    "City": "Louisiana",
+    "County": "",
+    "StateRatePercent": 5.00,
+    "CountyRatePercent": 0,
+    "CityRatePercent": 0,
+    "SpecialDistrictRatePercent": 0,
+    "CombinedRatePercent": 5.00,
+    "CombinedRateDecimal": 0.05,
+    "MinCombinedRatePercent": 5.00,
+    "MaxCombinedRatePercent": 5.00,
+    "AuthorityName": "Louisiana Department of Revenue",
+    "Source": "BaselineCurated",
+    "EffectiveDate": "2026-10-24"
+  }
+]

@@ -1,0 +1,402 @@
+# Local sales tax rates for states that publish them only as web pages or PDFs. CombinedRatePercent is the
+# full rate (state + local) inside the county or city; a city row overrides its county. Elsewhere the state rate applies.
+# Update from the source when the state changes a rate (SC: ST-500 is revised for May 1 / March 1 / August 1 changes).
+# ID: resort cities set and collect their own taxes, so the rates come from each city; only taxes on all retail
+# sales are here (taxes on lodging, drinks or restaurant food alone are not). Ballot results change rates on Jan 1.
+State,Level,Fips,Name,CombinedRatePercent,EffectiveFrom,Source
+HI,County,15001,Hawaii County,4.5,2020-01-01,https://tax.hawaii.gov/geninfo/countysurcharge/ (4% GET + 0.5% county surcharge)
+HI,County,15003,Honolulu County,4.5,2007-01-01,https://tax.hawaii.gov/geninfo/countysurcharge/ (4% GET + 0.5% county surcharge)
+HI,County,15007,Kauai County,4.5,2019-01-01,https://tax.hawaii.gov/geninfo/countysurcharge/ (4% GET + 0.5% county surcharge)
+HI,County,15009,Maui County,4.5,2024-01-01,https://tax.hawaii.gov/geninfo/countysurcharge/ (4% GET + 0.5% county surcharge)
+PA,County,42003,Allegheny County,7,,https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax/local-sales-tax
+PA,County,42101,Philadelphia County,8,,https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/sales-use-and-hotel-occupancy-tax/local-sales-tax
+MS,Place,2836000,Jackson city (Special Infrastructure Tax 1%),8,2014-03-01,https://www.dor.ms.gov/business/sales-and-use-tax/tourism-and-economic-development-taxes
+MS,Place,2874840,Tupelo city (0.25%),7.25,1989-02-01,https://www.dor.ms.gov/business/sales-and-use-tax/tourism-and-economic-development-taxes
+SC,County,45001,Abbeville County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45003,Aiken County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45005,Allendale County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45007,Anderson County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45009,Bamberg County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45011,Barnwell County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45013,Beaufort County,6,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45015,Berkeley County,9,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45017,Calhoun County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45019,Charleston County,9,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45021,Cherokee County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45023,Chester County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45025,Chesterfield County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45027,Clarendon County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45029,Colleton County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45031,Darlington County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45033,Dillon County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45035,Dorchester County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45037,Edgefield County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45039,Fairfield County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45041,Florence County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45043,Georgetown County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45045,Greenville County,6,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45047,Greenwood County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45049,Hampton County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45051,Horry County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45053,Jasper County,9,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45055,Kershaw County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45057,Lancaster County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45059,Laurens County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45061,Lee County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45063,Lexington County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45065,McCormick County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45067,Marion County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45069,Marlboro County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45071,Newberry County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45073,Oconee County,6,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45075,Orangeburg County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45077,Pickens County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45079,Richland County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45081,Saluda County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45083,Spartanburg County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45085,Sumter County,8,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45087,Union County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45089,Williamsburg County,8,2026-05-01,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,County,45091,York County,7,,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+SC,Place,4549075,Myrtle Beach city (Tourism Development Fee 1%),9,2019-08-01,"https://dor.sc.gov/sites/dor/files/forms/ST500.pdf (ST-500 Rev. 3/9/2026, effective 2026-05-01)"
+NY,County,36001,Albany County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36003,Allegany County,8.5,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36007,Broome County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36009,Cattaraugus County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36011,Cayuga County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36013,Chautauqua County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36015,Chemung County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36017,Chenango County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36019,Clinton County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36021,Columbia County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36023,Cortland County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36025,Delaware County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36027,Dutchess County,8.125,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36029,Erie County,8.75,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36031,Essex County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36033,Franklin County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36035,Fulton County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36037,Genesee County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36039,Greene County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36041,Hamilton County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36043,Herkimer County,8.25,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36045,Jefferson County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36049,Lewis County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36051,Livingston County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36053,Madison County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36055,Monroe County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36057,Montgomery County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36059,Nassau County,8.625,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36063,Niagara County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36065,Oneida County,8.75,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36067,Onondaga County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36069,Ontario County,7.5,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36071,Orange County,8.125,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36073,Orleans County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36075,Oswego County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36077,Otsego County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36079,Putnam County,8.375,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36083,Rensselaer County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36087,Rockland County,8.375,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36089,St. Lawrence County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36091,Saratoga County,7,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36093,Schenectady County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36095,Schoharie County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36097,Schuyler County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36099,Seneca County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36101,Steuben County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36103,Suffolk County,8.75,2025-03-01,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36105,Sullivan County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36107,Tioga County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36109,Tompkins County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36111,Ulster County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36113,Warren County,7,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36115,Washington County,7,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36117,Wayne County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36119,Westchester County,8.375,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36121,Wyoming County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36123,Yates County,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36005,Bronx County (New York City),8.875,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36047,Kings County (New York City),8.875,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36061,New York County (New York City),8.875,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36081,Queens County (New York City),8.875,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,County,36085,Richmond County (New York City),8.875,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3654716,Olean city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3664749,Salamanca city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3603078,Auburn city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3653979,Norwich city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3629443,Gloversville city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3638781,Johnstown city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3654837,Oneida city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3663418,Rome city,8.75,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3676540,Utica city,8.75,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3655574,Oswego city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3654485,Ogdensburg city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3665255,Saratoga Springs city,7,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3638077,Ithaca city,8,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3629333,Glens Falls city,7,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3649121,Mount Vernon city,8.375,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3650617,New Rochelle city,8.375,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3681677,White Plains city,8.375,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+NY,Place,3684000,Yonkers city,8.875,,"https://www.tax.ny.gov/pdf/publications/sales/pub718.pdf (Publication 718, effective 2025-03-01)"
+ID,Place,1609370,Bonners Ferry city (1% local option tax; single items of $1000 or more exempt; through 2033-12-31),7,2023-07-01,"https://www.bonnersferry.id.gov/193/Local-Option-Tax (Tax Commission city list updated 2026-10-15)"
+ID,Place,1613150,Cascade city (1% local option tax; ends 2026-12-31 unless renewed on the 2026-11-03 ballot),7,,"https://cascadeid.us/localoptiontax/ (Tax Commission city list updated 2026-10-15)"
+ID,Place,1622330,Donnelly city (1% local option tax),7,,"https://cityofdonnelly.org/wp-content/uploads/2023/05/Local-Option-Tax-Permit-Application.pdf (Tax Commission city list updated 2026-10-15)"
+ID,Place,1622690,Driggs city (0.5% local option tax),6.5,,"https://driggsidaho.org/departments/city-clerk/sales-tax (Tax Commission city list updated 2026-10-15)"
+ID,Place,1635200,Harrison city (1% local option tax; an increase is on the 2026-11-03 ballot),7,,"https://cityofharrisonid.com/local-option-tax-1 (Tax Commission city list updated 2026-10-15)"
+ID,Place,1643030,Ketchum city (1% local option tax + 1% supplemental; groceries and fuel exempt; 2.5% proposed on the 2026-11-03 ballot),8,2023-07-01,"https://ketchumidaho.gov/421/Original-Local-Option-Tax-Proposed-Renew (Tax Commission city list updated 2026-10-15)"
+ID,Place,1645820,Lava Hot Springs city (2% local option tax; groceries and some other goods exempt),8,2023-01-01,"https://canvass.sos.idaho.gov/eng/ballot_questions/view/19691 (2024 question to raise it from 2% failed) (Tax Commission city list updated 2026-10-15)"
+ID,Place,1648790,McCall city (1% local option tax; groceries and motor vehicles exempt; through 2036-12-31),7,2026-01-01,"https://www.mccall.id.us/197/Local-Option-Tax (Tax Commission city list updated 2026-10-15)"
+ID,Place,1664450,Ponderay city (1% local option tax on purchases up to $999.99; through 2035-12-31),7,2026-01-01,"https://cityofponderay.org/wp-content/uploads/2025/12/2025-FAQ-Business-Sales-Tax.pdf (Tax Commission city list updated 2026-10-15)"
+ID,Place,1667870,Riggins city (1% local option tax),7,2017-02-01,"https://canvass.sos.idaho.gov/eng/ballot_questions/view/6060/ (Tax Commission city list updated 2026-10-15)"
+ID,Place,1676780,Stanley city (2.5% local option tax),8.5,,"https://www.cityofstanleyid.gov/option-tax (Tax Commission city list updated 2026-10-15)"
+ID,Place,1678850,Sun Valley city (3% local option tax on retail sales not otherwise listed),9,,"https://sunvalleyidaho.gov/optiontax (Tax Commission city list updated 2026-10-15)"
+ID,Place,1679120,Swan Valley city (1% local option tax),7,2022-01-01,"https://www.cityofswanvalley.com/wp-content/uploads/2021/12/Business-Ord-89-Information-Packet.pdf (Tax Commission city list updated 2026-10-15)"
+ID,Place,1680470,Tetonia city (0.5% local option tax),6.5,2026-01-01,"https://tetoniaidaho.com/documents/117/LOT_Ordinance_2025.05.pdf (Tax Commission city list updated 2026-10-15)"
+ID,Place,1684250,Victor city (1% local option tax),7,,"https://victoridaho.gov/departments/city-treasurer-finance/sales-tax (Tax Commission city list updated 2026-10-15)"
+LA,County,22001,Acadia Parish,9.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,County,22003,Allen Parish,9.7,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/allen/
+LA,County,22005,Ascension Parish,9.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/ascension/
+LA,County,22007,Assumption Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/assumption/
+LA,County,22009,Avoyelles Parish,8.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,County,22011,Beauregard Parish,9.75,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/beauregard/
+LA,County,22013,Bienville Parish,8,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bienville/
+LA,County,22015,Bossier Parish,9.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bossier/
+LA,County,22017,Caddo Parish,8.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,County,22019,Calcasieu Parish,10.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/calcasieu/
+LA,County,22021,Caldwell Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caldwell/
+LA,County,22023,Cameron Parish,5,2025-01-01,https://lataonline.org/for-taxpayers/jurisdiction-list/ (0% local tax + 5% state)
+LA,County,22025,Catahoula Parish,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/catahoula/
+LA,County,22027,Claiborne Parish,8.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/claiborne/
+LA,County,22029,Concordia Parish,9.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/concordia/
+LA,County,22031,De Soto Parish,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/desoto/
+LA,County,22033,East Baton Rouge Parish,10.5,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/east-baton-rouge/
+LA,County,22035,East Carroll Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/east-carroll/
+LA,County,22037,East Feliciana Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/east-feliciana/
+LA,County,22039,Evangeline Parish,11,2025-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/evangeline/
+LA,County,22041,Franklin Parish,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/franklin/
+LA,County,22043,Grant Parish,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,County,22045,Iberia Parish,9.25,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberia/
+LA,County,22047,Iberville Parish,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberville/
+LA,County,22049,Jackson Parish,9,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,County,22051,Jefferson Parish,9.75,2025-01-01,https://www.jpso.com/ (4.75% parishwide + 5% state)
+LA,County,22053,Jefferson Davis Parish,10.5,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jefferson-davis/
+LA,County,22055,Lafayette Parish,9,2025-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lafayette/
+LA,County,22057,Lafourche Parish,9.65,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lafourche/
+LA,County,22059,La Salle Parish,8,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lasalle/
+LA,County,22061,Lincoln Parish,8.75,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lincoln/
+LA,County,22063,Livingston Parish,9,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,County,22065,Madison Parish,8.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/madison/
+LA,County,22067,Morehouse Parish,9,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/morehouse/
+LA,County,22069,Natchitoches Parish,9,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,County,22071,Orleans Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/orleans/
+LA,County,22073,Ouachita Parish,10.99,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/ouachita/
+LA,County,22075,Plaquemines Parish,10.25,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/plaquemines/
+LA,County,22077,Pointe Coupee Parish,9.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/pointe-coupee/
+LA,County,22079,Rapides Parish,8.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,County,22081,Red River Parish,9.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/red-river/
+LA,County,22083,Richland Parish,9.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/richland/
+LA,County,22085,Sabine Parish,9.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/sabine/
+LA,County,22087,St. Bernard Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-bernard/
+LA,County,22089,St. Charles Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-charles/
+LA,County,22091,St. Helena Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-helena/
+LA,County,22093,St. James Parish,8.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-james/
+LA,County,22095,St. John the Baptist Parish,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-john/
+LA,County,22097,St. Landry Parish,10.55,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,County,22099,St. Martin Parish,8.5,2025-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-martin/
+LA,County,22101,St. Mary Parish,9.45,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-mary/
+LA,County,22103,St. Tammany Parish,9.25,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-tammany/
+LA,County,22105,Tangipahoa Parish,8.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,County,22107,Tensas Parish,10.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tensas/
+LA,County,22109,Terrebonne Parish,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/terrebonne/
+LA,County,22111,Union Parish,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/union/
+LA,County,22113,Vermilion Parish,8.75,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/vermilion/
+LA,County,22115,Vernon Parish,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/vernon/
+LA,County,22117,Washington Parish,10.83,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/washington/
+LA,County,22119,Webster Parish,8,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,County,22121,West Baton Rouge Parish,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/west-baton-rouge/
+LA,County,22123,West Carroll Parish,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/west-carroll/
+LA,County,22125,West Feliciana Parish,9.5,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/west-feliciana/
+LA,County,22127,Winn Parish,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/winn/
+LA,Place,2200835,Albany,10.5,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,Place,2200975,Alexandria,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2202655,Arcadia,9.5,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bienville/
+LA,Place,2203320,Athens,9.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/claiborne/
+LA,Place,2204020,Baldwin,10.45,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-mary/
+LA,Place,2204055,Ball,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2204580,Basile,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2204615,Baskin,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/franklin/
+LA,Place,2204685,Bastrop,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/morehouse/
+LA,Place,2206925,Benton,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bossier/
+LA,Place,2207030,Bernice,12,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/union/
+LA,Place,2207730,Blanchard,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2208150,Bogalusa,10.493,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/washington/
+LA,Place,2208535,Bonita,11,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/morehouse/
+LA,Place,2208920,Bossier City,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bossier/
+LA,Place,2209165,Boyce,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2209340,Breaux Bridge,9.5,2025-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-martin/
+LA,Place,2210950,Bunkie,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2212280,Campti,10.5,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,Place,2212420,Cankton,9.55,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2213260,Castor,9,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bienville/
+LA,Place,2214485,Chatham,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,Place,2214660,Cheneyville,9.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2215290,Choudrant,9.75,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lincoln/
+LA,Place,2215465,Church Point,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2215745,Clarence,10,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,Place,2216375,Colfax,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,Place,2216655,Collinston,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/morehouse/
+LA,Place,2217215,Converse,10.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/sabine/
+LA,Place,2217880,Cottonport,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2217915,Cotton Valley,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2218055,Coushatta,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/red-river/
+LA,Place,2218295,Creola,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,Place,2218650,Crowley,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2218790,Cullen,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2220155,Delcambre,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberia/
+LA,Place,2220190,Delhi,11.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/richland/
+LA,Place,2220330,Delta,9.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/madison/
+LA,Place,2220435,Denham Springs,10.5,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,Place,2220610,DeRidder,10,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/beauregard/
+LA,Place,2221135,Dixie Inn,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2221590,Doyline,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2221765,Dry Prong,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,Place,2221800,Dubach,9.75,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lincoln/
+LA,Place,2222255,Duson,11.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2222465,East Hodge,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,Place,2223235,Elizabeth,11,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/allen/
+LA,Place,2224215,Eros,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,Place,2224565,Eunice,10.7,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2225160,Farmerville,12,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/union/
+LA,Place,2225440,Ferriday,8.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/concordia/
+LA,Place,2225860,Florien,10.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/sabine/
+LA,Place,2226140,Folsom,9.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-tammany/
+LA,Place,2226280,Fordoche,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/pointe-coupee/
+LA,Place,2227155,Franklin,10.45,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-mary/
+LA,Place,2227190,Franklinton,11.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/washington/
+LA,Place,2228660,Georgetown,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,Place,2228835,Gibsland,10,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bienville/
+LA,Place,2228940,Gilbert,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/franklin/
+LA,Place,2229220,Glenmora,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2229640,Golden Meadow,10.4,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lafourche/
+LA,Place,2229745,Goldonna,11,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,Place,2230515,Grambling,11,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lincoln/
+LA,Place,2230550,Gramercy,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-james/
+LA,Place,2230690,Grand Cane,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/desoto/
+LA,Place,2231565,Greensburg,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-helena/
+LA,Place,2231705,Greenwood,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2232650,Hall Summit,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/red-river/
+LA,Place,2232755,Hammond,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2233420,Haughton,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bossier/
+LA,Place,2233525,Haynesville,10.125,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/claiborne/
+LA,Place,2234015,Hessmer,9.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2235100,Hodge,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,Place,2235870,Homer,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/claiborne/
+LA,Place,2236045,Hornbeck,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/vernon/
+LA,Place,2236150,Hosston,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2236885,Ida,11.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2237025,Independence,11,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2237410,Iota,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2238075,Jeanerette,9.75,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberia/
+LA,Place,2238285,Jena,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lasalle/
+LA,Place,2238355,Jennings,11,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jefferson-davis/
+LA,Place,2238670,Jonesboro,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,Place,2238985,Junction City,9.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/claiborne/
+LA,Place,2239545,Kentwood,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2239685,Killian,10,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,Place,2239755,Kinder,11,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/allen/
+LA,Place,2240280,Krotz Springs,9.55,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2241050,Lake Arthur,11,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jefferson-davis/
+LA,Place,2241400,Lake Providence,12,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/east-carroll/
+LA,Place,2242800,Lecompte,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2243010,Leesville,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/vernon/
+LA,Place,2243395,Leonville,8.55,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2244655,Livingston,10,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,Place,2244690,Livonia,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/pointe-coupee/
+LA,Place,2244900,Lockport,10.15,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lafourche/
+LA,Place,2245040,Logansport,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/desoto/
+LA,Place,2245670,Loreauville,9.5,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberia/
+LA,Place,2246720,Lutcher,9.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-james/
+LA,Place,2248225,Mandeville,9.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-tammany/
+LA,Place,2248260,Mangham,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/richland/
+LA,Place,2248365,Mansfield,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/desoto/
+LA,Place,2248400,Mansura,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2248470,Many,10.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/sabine/
+LA,Place,2248645,Marion,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/union/
+LA,Place,2248750,Marksville,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2249730,Melville,10.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2249905,Mer Rouge,11,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/morehouse/
+LA,Place,2250010,Merryville,10,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/beauregard/
+LA,Place,2250885,Minden,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2251620,Montgomery,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,Place,2251690,Montpelier,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-helena/
+LA,Place,2251830,Mooringsport,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2251970,Moreauville,9.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2252040,Morgan City,10.25,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-mary/
+LA,Place,2252075,Morganza,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/pointe-coupee/
+LA,Place,2253370,Napoleonville,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/assumption/
+LA,Place,2253510,Natchez,10,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,Place,2253545,Natchitoches,10.5,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,Place,2253930,Newellton,11.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tensas/
+LA,Place,2254035,New Iberia,10.5,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberia/
+LA,Place,2254175,New Llano,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/vernon/
+LA,Place,2255105,New Roads,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/pointe-coupee/
+LA,Place,2255910,North Hodge,10,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/jackson/
+LA,Place,2256540,Oakdale,11,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/allen/
+LA,Place,2257205,Oak Ridge,8.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/morehouse/
+LA,Place,2257450,Oberlin,11,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/allen/
+LA,Place,2257590,Oil City,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2257905,Olla,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lasalle/
+LA,Place,2258045,Opelousas,10.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2258780,Palmetto,8.55,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2259445,Pearl River,9.5,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-tammany/
+LA,Place,2260530,Pineville,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2260670,Plain Dealing,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bossier/
+LA,Place,2260985,Plaucheville,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2261055,Pleasant Hill,10.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/sabine/
+LA,Place,2261580,Pollock,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/grant/
+LA,Place,2261615,Ponchatoula,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2261825,Port Barre,10.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2263645,Rayne,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/acadia/
+LA,Place,2263680,Rayville,10.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/richland/
+LA,Place,2264100,Reeves,10.7,2026-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/allen/
+LA,Place,2264590,Richmond,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/madison/
+LA,Place,2264660,Richwood,10.5,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/ouachita/
+LA,Place,2264905,Ringgold,10,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bienville/
+LA,Place,2265325,Robeline,10,2027-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/natchitoches/
+LA,Place,2265710,Rodessa,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2266165,Roseland,11,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2266200,Rosepine,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/vernon/
+LA,Place,2266655,Ruston,11,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lincoln/
+LA,Place,2267215,St. Francisville,10.5,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/west-feliciana/
+LA,Place,2267250,St. Gabriel,10.916,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/iberville/
+LA,Place,2267495,St. Joseph,11.75,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tensas/
+LA,Place,2267600,St. Martinville,10,2025-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-martin/
+LA,Place,2267880,Saline,9,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/bienville/
+LA,Place,2268125,Sarepta,9,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2270000,Shreveport,9.6,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2270175,Sibley,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2270525,Simmesport,10.25,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/avoyelles/
+LA,Place,2270630,Simsboro,10,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lincoln/
+LA,Place,2270770,Slaughter,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/east-feliciana/
+LA,Place,2270805,Slidell,9.63,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-tammany/
+LA,Place,2271820,South Mansfield,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/desoto/
+LA,Place,2272415,Springfield,10.5,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,Place,2272485,Springhill,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/webster/
+LA,Place,2273255,Sterlington,11.5,2026-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/ouachita/
+LA,Place,2273395,Stonewall,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/desoto/
+LA,Place,2273955,Sun,9.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-tammany/
+LA,Place,2274690,Tallulah,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/madison/
+LA,Place,2274760,Tangipahoa,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2275425,Thibodaux,10.35,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lafourche/
+LA,Place,2275670,Tickfaw,10.5,2025-04-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tangipahoa/
+LA,Place,2276615,Tullos,9.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lasalle/
+LA,Place,2278890,Vivian,10.35,2025-07-01,https://lataonline.org/for-taxpayers/city-to-parish-index/caddo/
+LA,Place,2279240,Walker,10.5,2026-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/livingston/
+LA,Place,2279870,Washington,9.75,2026-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/st-landry/
+LA,Place,2279940,Waterproof,11.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/tensas/
+LA,Place,2282495,Winnsboro,11,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/franklin/
+LA,Place,2282565,Wisner,10,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/franklin/
+LA,Place,2283125,Woodworth,10.5,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/rapides/
+LA,Place,2283335,Youngsville,10.5,2025-10-01,https://lataonline.org/for-taxpayers/city-to-parish-index/lafayette/
+LA,Place,2283685,Zwolle,11.625,2025-01-01,https://lataonline.org/for-taxpayers/city-to-parish-index/sabine/

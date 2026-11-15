@@ -1,0 +1,20 @@
+[
+  {
+    "CountryCode": "US",
+    "StateCode": "MD",
+    "PostalCode": "*",
+    "City": "Maryland",
+    "County": "",
+    "StateRatePercent": 6.00,
+    "CountyRatePercent": 0,
+    "CityRatePercent": 0,
+    "SpecialDistrictRatePercent": 0,
+    "CombinedRatePercent": 6.00,
+    "CombinedRateDecimal": 0.06,
+    "MinCombinedRatePercent": 6.00,
+    "MaxCombinedRatePercent": 6.00,
+    "AuthorityName": "Comptroller of Maryland",
+    "Source": "BaselineCurated",
+    "EffectiveDate": "2026-10-24"
+  }
+]

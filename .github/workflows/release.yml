@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore, Build, and Test
+        run: |
+          dotnet restore TaxOpus.slnx
+          dotnet build TaxOpus.slnx --no-restore --configuration Release
+          dotnet test TaxOpus.slnx --no-build --configuration Release
+
+      - name: Publish CLI
+        run: |
+          dotnet publish src/TaxOpus.Cli/TaxOpus.Cli.csproj \
+            --configuration Release \
+            --no-restore \
+            --output publish/taxopus-cli
+
+      - name: Package Release Artifacts
+        run: |
+          mkdir -p dist
+          tar -czf dist/taxopus-cli-${{ github.ref_name }}.tar.gz -C publish taxopus-cli
+          if [ -f data/exports/us_sales_tax_combined.json ] && [ -f data/exports/us_sales_tax_combined.csv ]; then
+            cp data/exports/us_sales_tax_combined.json dist/
+            cp data/exports/us_sales_tax_combined.csv dist/
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: dist/*

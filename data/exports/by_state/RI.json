@@ -1,0 +1,20 @@
+[
+  {
+    "CountryCode": "US",
+    "StateCode": "RI",
+    "PostalCode": "*",
+    "City": "Rhode Island",
+    "County": "",
+    "StateRatePercent": 7.00,
+    "CountyRatePercent": 0,
+    "CityRatePercent": 0,
+    "SpecialDistrictRatePercent": 0,
+    "CombinedRatePercent": 7.00,
+    "CombinedRateDecimal": 0.07,
+    "MinCombinedRatePercent": 7.00,
+    "MaxCombinedRatePercent": 7.00,
+    "AuthorityName": "Rhode Island Division of Taxation",
+    "Source": "BaselineCurated",
+    "EffectiveDate": "2026-10-24"
+  }
+]

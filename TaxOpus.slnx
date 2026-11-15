@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TaxOpus.Cli/TaxOpus.Cli.csproj" />
+    <Project Path="src/TaxOpus.Core/TaxOpus.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TaxOpus.Tests/TaxOpus.Tests.csproj" />
+  </Folder>
+</Solution>

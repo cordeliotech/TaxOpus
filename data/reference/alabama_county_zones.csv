@@ -1,0 +1,71 @@
+# Where Alabama county sales tax codes apply, for counties with more than one general sales tax code. Transcribed
+# from ALDOR's "County Code Explanations" (https://www.revenue.alabama.gov/sales-use/city-and-county-tax-rates/).
+# Codes not listed apply county-wide. Rule: conditions separated by ";" that must all hold:
+#   cl:A,B     inside the current corporate limits of city A or B      notcl:A,B   inside neither
+#   pj:A,B     outside all corporate limits, in the police jurisdiction of A or B (the nearest city's)
+#   notpj:A,B  not in the police jurisdiction of A or B                clpj:A,B    inside the limits or PJ of A or B
+#   "*" for any city. Names are Census place names, upper case, letters only.
+Code,County,Rule,Note
+7008,Calhoun,"notcl:OXFORD,ANNISTON,OHATCHEE,JACKSONVILLE,PIEDMONT,WEAVER,HOBSON CITY,GLENCOE,SOUTHSIDE;notpj:GLENCOE,HOBSON CITY,WEAVER,ANNISTON,JACKSONVILLE,PIEDMONT,OHATCHEE",Unincorporated areas and the police jurisdictions of Blue Mountain / Oxford / Southside
+7108,Calhoun,"pj:GLENCOE,HOBSON CITY,WEAVER",
+7208,Calhoun,"pj:ANNISTON,JACKSONVILLE,PIEDMONT",
+7308,Calhoun,pj:OHATCHEE,
+7408,Calhoun,"cl:OXFORD,ANNISTON,OHATCHEE,JACKSONVILLE,PIEDMONT,WEAVER,HOBSON CITY,GLENCOE,SOUTHSIDE",
+7009,Chambers,"cl:LAFAYETTE,VALLEY,LANETT,WAVERLY,FIVE POINTS",
+7109,Chambers,"notcl:LAFAYETTE,VALLEY,LANETT,WAVERLY,FIVE POINTS;notpj:VALLEY,LAFAYETTE,WAVERLY,FIVE POINTS,WADLEY",Lanett's police jurisdiction code ended 2023-12-31 and that area moved to 7109
+7309,Chambers,pj:VALLEY,
+7409,Chambers,pj:LAFAYETTE,
+7609,Chambers,pj:WAVERLY,
+7070,Chambers,pj:FIVE POINTS,
+7170,Chambers,pj:WADLEY,
+7011,Chilton,"notcl:CLANTON,JEMISON,MAPLESVILLE,THORSBY",
+7711,Chilton,"cl:CLANTON,JEMISON,MAPLESVILLE,THORSBY",
+7022,Cullman,notcl:ARAB;notpj:ARAB,
+7122,Cullman,clpj:ARAB,
+7023,Dale,"notcl:DALEVILLE,OZARK",
+7723,Dale,"cl:DALEVILLE,OZARK",
+7026,Elmore,notcl:PRATTVILLE,
+7726,Elmore,cl:PRATTVILLE,
+7470,Elmore,"notcl:*;notpj:ECLECTIC,MILLBROOK,TALLASSEE,ELMORE",Unincorporated areas and the police jurisdictions of Deatsville / Coosada / Prattville / Wetumpka; in addition to 7026
+7471,Elmore,cl:WETUMPKA,
+7473,Elmore,pj:ECLECTIC,
+7475,Elmore,pj:MILLBROOK,
+7477,Elmore,pj:TALLASSEE,
+7478,Elmore,cl:ELMORE,
+7479,Elmore,pj:ELMORE,
+7480,Elmore,cl:DEATSVILLE,
+7027,Escambia,cl:*,
+7127,Escambia,"pj:ATMORE,BREWTON,EAST BREWTON,FLOMATON",
+7227,Escambia,pj:RIVERVIEW,
+7727,Escambia,"notcl:*;notpj:ATMORE,BREWTON,EAST BREWTON,FLOMATON,RIVERVIEW","ALDOR says outside Pollard's corporate limits and the five police jurisdictions; read as the rest of the county, since applying it inside the other cities on top of 7027 would give implausible totals"
+7039,Lauderdale,notcl:FLORENCE,
+7739,Lauderdale,cl:FLORENCE,
+7041,Lee,"notcl:AUBURN,OPELIKA,PHENIX CITY;notpj:OPELIKA,PHENIX CITY",
+7141,Lee,pj:OPELIKA,
+7241,Lee,pj:PHENIX CITY,
+7741,Lee,"cl:AUBURN,OPELIKA,PHENIX CITY",
+7045,Madison,notcl:HUNTSVILLE,In addition to the county-wide 7745
+7047,Marion,notcl:WINFIELD,
+7747,Marion,cl:WINFIELD,
+7048,Marshall,"notcl:ALBERTVILLE,ARAB,BOAZ,GUNTERSVILLE",
+7748,Marshall,"cl:ALBERTVILLE,ARAB,BOAZ,GUNTERSVILLE",
+7049,Mobile,"notcl:PRICHARD,MOBILE",
+7749,Mobile,"cl:PRICHARD,MOBILE",
+7052,Morgan,"notcl:EVA,PRICEVILLE,SOMERVILLE,DECATUR,HARTSELLE,FALKVILLE,TRINITY",
+7252,Morgan,cl:PRICEVILLE,
+7352,Morgan,cl:SOMERVILLE,
+7452,Morgan,cl:EVA,
+7752,Morgan,"cl:DECATUR,HARTSELLE,FALKVILLE,TRINITY",
+7055,Pike,notcl:TROY,
+7755,Pike,cl:TROY,
+7057,Russell,"notcl:HURTSBORO,PHENIX CITY;notpj:HURTSBORO,PHENIX CITY",
+7157,Russell,"pj:HURTSBORO,PHENIX CITY",
+7757,Russell,"cl:HURTSBORO,PHENIX CITY",
+7059,St. Clair,notcl:PELL CITY,
+7759,St. Clair,cl:PELL CITY,
+7061,Talladega,notcl:*;notpj:*,
+7161,Talladega,pj:*,
+7761,Talladega,cl:*,
+7063,Tuscaloosa,notcl:*;notpj:*,ALDOR: cities and towns that levy a sales tax; read as any city
+7163,Tuscaloosa,pj:*,
+7763,Tuscaloosa,cl:*,
